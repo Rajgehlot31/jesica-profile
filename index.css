@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    min-height: 10vh;
+    background-color: hsl(0, 0%, 8%);
+    margin-left: 600px;
+
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+}
+
+h3 {
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.para {
+    color: white;
+    font-size: 14px;
+}
+
+p {
+    padding: 2px;
+    color: hsl(75, 94%, 57%);
+    margin: 10px;
+
+}
+
+.avtar {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.avtar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0, 8%);
+    font-size: 14px;
+
+}
+
+.card-body button {
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    outline: none;
+    background-color: hsl(0, 0%, 20%);
+    cursor: pointer;
+
+
+}
+
+.card-body button:hover {
+    color: black;
+
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+
+}
+
+.attribution {
+    font-size: 14px;
+    color: #777;
+    margin-top: 15px;
+}
+
+.attribution a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    background-color: aliceblue;
+}
